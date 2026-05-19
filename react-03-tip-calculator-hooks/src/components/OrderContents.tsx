@@ -1,4 +1,4 @@
-import { IMenuItem, IOrdenItem } from "../interfaces";
+import type { IMenuItem, IOrdenItem } from "../interfaces";
 
 import { formatCurrency } from "../utils";
 

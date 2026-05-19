@@ -1,4 +1,4 @@
-import { ICartItem, IGuitar } from "../interfaces";
+import type { ICartItem, IGuitar } from "../interfaces";
 
 export default function Header({
   cart,

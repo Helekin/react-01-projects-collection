@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo } from "react";
 
-import { IGuitar, ICartItem } from "../interfaces";
+import type { IGuitar, ICartItem } from "../interfaces";
 
 import { db } from "../data/db";
 
@@ -79,7 +79,7 @@ export const useCart = () => {
 
   const cartTotal = useMemo(
     () => cart.reduce((total, item) => total + item.quantity * item.price, 0),
-    [cart]
+    [cart],
   );
 
   return {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { IMenuItem, IOrdenItem } from "../interfaces";
+import type { IMenuItem, IOrdenItem } from "../interfaces";
 
 export default function useOrder() {
   const [order, setOrder] = useState<IOrdenItem[]>([]);

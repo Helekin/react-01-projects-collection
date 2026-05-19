@@ -1,4 +1,4 @@
-import { IGuitar } from "../interfaces";
+import {type IGuitar } from "../interfaces";
 
 export default function Guitar({
   guitar,
